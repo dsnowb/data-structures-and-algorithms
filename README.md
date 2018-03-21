@@ -4,4 +4,4 @@
 1. Data Structures
 <None>
 2. Algorithms
- - [shift-array](./challenges/shift-array)
+ - [shift-array](challenges/shift-array)
