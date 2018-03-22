@@ -11,7 +11,7 @@ def binary_search(arr,key):
     r = max_len
 
     while l <= r and l != max_len:
-        mid = (l + r + 1) // 2 if l + r % 2 else (l + r) // 2
+        mid = (l + r + 1) // 2 if (l + r) % 2 else (l + r) // 2
         if arr[mid] == key:
             return mid
         if arr[mid] > key:
