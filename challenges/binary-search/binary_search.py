@@ -1,4 +1,11 @@
 def binary_search(arr,key):
+    '''
+    Inputs:
+        arr -> a pre-sorted (low-to-high) array of integers
+        key -> an integer
+    Outputs:
+        the index i in arr such that arr[i] = key or -1 if i does not exist
+    '''
     # validate params
     if type(arr) is not list:
         raise TypeError('arr must be type <list>')
