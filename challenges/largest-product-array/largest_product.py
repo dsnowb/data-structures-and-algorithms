@@ -1,4 +1,6 @@
 def largest_product(arr):
+    '''Returns the largest product of adjacent values in an m x n matrix, given m > 1, n > 1'''
+
     # Check param type and values
     if type(arr) is not list:
         raise TypeError('Parameter must of be of type <list>')
