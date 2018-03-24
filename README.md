@@ -2,6 +2,7 @@
 
 ## Contents
 ### Data Structures
+- [Linked List](https://github.com/dsnowb/data-structures-and-algorithms/tree/linked-list/data-structures/linked-list)
 
 ### Algorithms
 - [shift-array](https://github.com/dsnowb/data-structures-and-algorithms/tree/shift-array/challenges/shift-array)
