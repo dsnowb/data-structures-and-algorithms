@@ -16,8 +16,8 @@ class LinkedList(object):
             else:
                 for i in range(len(iterable) - 1,-1,-1):
                     self.insert(iterable[i])
-        except SyntaxError:    
-            print('parameter \'iterable\' must be of type <iterable>')
+        except TypeError:    
+            print('parameter must be of type <iterable>')
 
     def __len__(self):
         """Return the number of nodes in linked list"""

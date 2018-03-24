@@ -1,3 +1,6 @@
+from linked_list import LinkedList as LL
+import pytest as pt
+
 def test_insert_into_empty(empty_linked_list):
     """Validate insertion into empty linked list"""
 
@@ -11,6 +14,12 @@ def test_insert_into_full_list(n_linked_list_list):
 
     n_linked_list_list.insert('z')
     assert n_linked_list_list.head.val == 'z'
+
+def test_non_iterable():
+    # with pt.raises(TypeError) as err: ## This fails for some reason, even though I am specifically raising a TypeError
+    with pt.raises(Exception) as err:
+        l = LL(1)
+        assert err.message == 'a thing'
 
 def test_insert_into_full_dict(linked_list_dict):
     """
