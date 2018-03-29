@@ -10,4 +10,4 @@
 - [largest-product-array](https://github.com/dsnowb/data-structures-and-algorithms/tree/largest-product-array/challenges/largest-product-array)
 - [ll-insertions](https://github.com/dsnowb/data-structures-and-algorithms/tree/ll_insertions/challenges/ll_insertions)
 - [ll-kth-from-end](https://github.com/dsnowb/data-structures-and-algorithms/tree/ll-kth-from-end/challenges/ll_kth_from_end)
-- [ll-merge](https://github.com/dsnowb/data-structures-and-algorithms/tree/ll-merge/challenges/ll_merge)
+- [ll-merge](https://github.com/dsnowb/data-structures-and-algorithms/tree/ll-merge/challenges/ll-merge)

@@ -5,4 +5,4 @@ Take two inputted linked lists and zip them together, so that the new link list 
 This is an O(1) space solution, so the original lists are mutated.
 
 ## Solution
-![solution](https://github.com/dsnowb/data-structures-and-algorithms/blob/ll-merge/assets/06-ll_merge.jpg)
+![solution](https://github.com/dsnowb/data-structures-and-algorithms/blob/ll-merge/assets/07-ll_merge.jpg)
