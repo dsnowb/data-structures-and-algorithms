@@ -3,6 +3,8 @@
 ## Contents
 ### Data Structures
 - [Linked List](https://github.com/dsnowb/data-structures-and-algorithms/tree/linked-list/data_structures/linked_list)
+- [Stack](https://github.com/dsnowb/data-structures-and-algorithms/tree/stack-queue/data_structures/stack)
+- [Queue](https://github.com/dsnowb/data-structures-and-algorithms/tree/stack-queue/data_structures/queue)
 
 ### Algorithms
 - [shift-array](https://github.com/dsnowb/data-structures-and-algorithms/tree/shift-array/challenges/shift-array)
