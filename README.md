@@ -14,3 +14,4 @@
 - [ll-kth-from-end](https://github.com/dsnowb/data-structures-and-algorithms/tree/ll-kth-from-end/challenges/ll_kth_from_end)
 - [ll-merge](https://github.com/dsnowb/data-structures-and-algorithms/tree/ll-merge/challenges/ll-merge)
 - [ll-find-loop](https://github.com/dsnowb/data-structures-and-algorithms/tree/ll-find-loop/challenges/ll-find-loop)
+- [queue-with-stacks](https://github.com/dsnowb/data-structures-and-algorithms/tree/queue-with-stacks/challenges/queue-with-stacks)
