@@ -15,3 +15,4 @@
 - [ll-merge](https://github.com/dsnowb/data-structures-and-algorithms/tree/ll-merge/challenges/ll-merge)
 - [ll-find-loop](https://github.com/dsnowb/data-structures-and-algorithms/tree/ll-find-loop/challenges/ll-find-loop)
 - [queue-with-stacks](https://github.com/dsnowb/data-structures-and-algorithms/tree/queue-with-stacks/challenges/queue-with-stacks)
+- [fifo-animal-shelter](https://github.com/dsnowb/data-structures-and-algorithms/tree/fifo-animal-shelter/challenges/fifo-animal-shelter)
