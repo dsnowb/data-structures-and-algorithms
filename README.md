@@ -17,3 +17,4 @@
 - [queue-with-stacks](https://github.com/dsnowb/data-structures-and-algorithms/tree/queue-with-stacks/challenges/queue-with-stacks)
 - [fifo-animal-shelter](https://github.com/dsnowb/data-structures-and-algorithms/tree/fifo-animal-shelter/challenges/fifo-animal-shelter)
 - [multi-bracket-validation](https://github.com/dsnowb/data-structures-and-algorithms/tree/multi-bracket-validation/challenges/multi-bracket-validation)
+- [towers-of-hanoi](https://github.com/dsnowb/data-structures-and-algorithms/tree/towers-of-hanoi/challenges/towers-of-hanoi)
