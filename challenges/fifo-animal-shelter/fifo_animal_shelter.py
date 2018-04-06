@@ -1,6 +1,16 @@
 from node import Node
 from queue import Queue
 
+class Dog(object):
+    def __init__(self):
+        self.val = 'dog'
+
+
+class Cat(object):
+    def __init__(self):
+        self.val = 'cat'
+
+
 class AnimalShelter(Queue):
     '''Fifo data structure composed of Node objects.
 
@@ -18,8 +28,8 @@ class AnimalShelter(Queue):
 
     def enqueue(self,val):
         '''Add val to back of the queue.'''
-        if val != 'cat' and val != 'dog':
-            raise TypeError('argument must be \'dog\' or \'cat\'')
+        if not isinstance(val, Dog) and not isinstance(val, Cat):
+            raise TypeError('argument must type <Dog> or <Cat>')
         
         if self.back:
             self.back._next = Node(val)
@@ -32,11 +42,11 @@ class AnimalShelter(Queue):
 
     def dequeue(self,val=None):
         '''Remove and appropriate node.'''
-        if val != 'cat' and val != 'dog' and val:
+        if val and not isinstance(val, Dog) and not isinstance(val, Cat):
             raise TypeError('optional argument must be \'dog\' or \'cat\'')
 
         if self.front:
-            if self.front.val == val or not val:
+            if type(self.front.val) == type(val) or not val:
                 cur = self.front
                 self.front = self.front._next
                 return cur
@@ -47,7 +57,7 @@ class AnimalShelter(Queue):
             cur = self.front._next
             prev = self.front
             while cur:
-                if cur.val == val:
+                if type(cur.val) == type(val):
                     prev._next = cur._next
                     return cur
                 prev = cur
