@@ -66,13 +66,19 @@ class BST(object):
             func(node)
 
         if node.left is not None:
-            self._walk(node.left, func, order)
+            try:
+                self._walk(node.left, func, order)
+            except RecursionError:
+                print('Dept too large for current maximum recursion depth.')
 
         if order == 'in_order':
             func(node)
 
         if node.right is not None:
-            self._walk(node.right, func, order)
+            try:
+                self._walk(node.right, func, order)
+            except RecursionError:
+                print('Depth too large for current maximum recursion depth.')
 
         if order == 'post_order':
             func(node)
