@@ -5,6 +5,7 @@
 - [Linked List](https://github.com/dsnowb/data-structures-and-algorithms/tree/linked-list/data_structures/linked_list)
 - [Stack](https://github.com/dsnowb/data-structures-and-algorithms/tree/stack-queue/data_structures/stack)
 - [Queue](https://github.com/dsnowb/data-structures-and-algorithms/tree/stack-queue/data_structures/queue)
+- [BST](https://github.com/dsnowb/data-structures-and-algorithms/tree/bst/data_structures/binary_search_tree)
 
 ### Algorithms
 - [shift-array](https://github.com/dsnowb/data-structures-and-algorithms/tree/shift-array/challenges/shift-array)
