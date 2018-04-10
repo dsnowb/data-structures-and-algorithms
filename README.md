@@ -20,3 +20,4 @@
 - [multi-bracket-validation](https://github.com/dsnowb/data-structures-and-algorithms/tree/multi-bracket-validation/challenges/multi-bracket-validation)
 - [towers-of-hanoi](https://github.com/dsnowb/data-structures-and-algorithms/tree/towers-of-hanoi/challenges/towers-of-hanoi)
 - [fizzbuzztree](https://github.com/dsnowb/data-structures-and-algorithms/tree/FizzBuzzTree/challenges/fizzbuzztree)
+- [breadth-first-traversal](https://github.com/dsnowb/data-structures-and-algorithms/tree/breadth-first-traversal/challenges/breadth-first-traversal)
