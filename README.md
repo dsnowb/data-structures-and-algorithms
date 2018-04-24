@@ -6,6 +6,7 @@
 - [Stack](https://github.com/dsnowb/data-structures-and-algorithms/tree/stack-queue/data_structures/stack)
 - [Queue](https://github.com/dsnowb/data-structures-and-algorithms/tree/stack-queue/data_structures/queue)
 - [BST](https://github.com/dsnowb/data-structures-and-algorithms/tree/bst/data_structures/binary_search_tree)
+- [K-Tree](https://github.com/dsnowb/data-structures-and-algorithms/tree/k-tree/data_structures/k_tree)
 
 ### Algorithms
 - [shift-array](https://github.com/dsnowb/data-structures-and-algorithms/tree/shift-array/challenges/shift-array)
@@ -22,3 +23,4 @@
 - [fizzbuzztree](https://github.com/dsnowb/data-structures-and-algorithms/tree/FizzBuzzTree/challenges/fizzbuzztree)
 - [breadth-first-traversal](https://github.com/dsnowb/data-structures-and-algorithms/tree/breadth-first-traversal/challenges/breadth-first-traversal)
 - [find-maximum-value-binary-tree](https://github.com/dsnowb/data-structures-and-algorithms/tree/find-maximum-value-binary-tree/challenges/find-maximum-value-binary-tree)
+- [print_level_order](https://github.com/dsnowb/data-structures-and-algorithms/tree/print_level_order/challenges/print_level_order)
