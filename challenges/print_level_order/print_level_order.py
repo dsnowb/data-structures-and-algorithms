@@ -19,7 +19,6 @@ def print_level_order(tree):
 
         string = ' '.join(printlist)
         all_strings.append(string)
-        print(string)
 
         if len(new_list):
             recurse(new_list)
@@ -27,4 +26,4 @@ def print_level_order(tree):
     if tree.root:
         recurse([tree.root])
 
-    return all_strings
+    return '\n'.join(all_strings)
