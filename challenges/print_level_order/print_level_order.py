@@ -6,19 +6,18 @@ def print_level_order(tree):
     if not isinstance(tree, KTree):
         raise TypeError('argument must be of type <KTree>')
 
-    all_strings = []  # For testing output
+    all_strings = ''  # For testing output
 
     def recurse(nodelist):
         nonlocal all_strings
         new_list = []
-        printlist = []
+        substring = ''
         for node in nodelist:
-            printlist.append(str(node.val))
+            substring += str(node.val) + ' '
             for child in node.children:
                 new_list.append(child)
-
-        string = ' '.join(printlist)
-        all_strings.append(string)
+        
+        all_strings += substring[0:-1] + '\n'
 
         if len(new_list):
             recurse(new_list)
@@ -26,4 +25,4 @@ def print_level_order(tree):
     if tree.root:
         recurse([tree.root])
 
-    return '\n'.join(all_strings)
+    return all_strings[0:-1]
