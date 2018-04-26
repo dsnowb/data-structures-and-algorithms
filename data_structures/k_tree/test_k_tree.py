@@ -77,3 +77,11 @@ def test_insertion(small_k_tree):
     """Test insertion works as expected."""
     small_k_tree.insert(21, 11)
     assert small_k_tree.root.children[0].children[0].val == 21
+
+
+def test_no_insertion(small_k_tree):
+    """Test insertion inserts nothing if no matching parent."""
+    small_k_tree.insert(21,15)
+    match = []
+    small_k_tree.pre_order(lambda n: match.append(n) if n.val == 21 else False)
+    assert not len(match)
