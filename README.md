@@ -7,6 +7,7 @@
 - [Queue](https://github.com/dsnowb/data-structures-and-algorithms/tree/stack-queue/data_structures/queue)
 - [BST](https://github.com/dsnowb/data-structures-and-algorithms/tree/bst/data_structures/binary_search_tree)
 - [K-Tree](https://github.com/dsnowb/data-structures-and-algorithms/tree/k-tree/data_structures/k_tree)
+- [Hash Table](https://github.com/dsnowb/data-structures-and-algorithms/tree/class-30-hash-tables/data_structures/hash_table)
 
 ### Algorithms
 - [shift-array](https://github.com/dsnowb/data-structures-and-algorithms/tree/shift-array/challenges/shift-array)
