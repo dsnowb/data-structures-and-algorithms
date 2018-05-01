@@ -25,3 +25,4 @@
 - [find-maximum-value-binary-tree](https://github.com/dsnowb/data-structures-and-algorithms/tree/find-maximum-value-binary-tree/challenges/find-maximum-value-binary-tree)
 - [print_level_order](https://github.com/dsnowb/data-structures-and-algorithms/tree/print_level_order/challenges/print_level_order)
 - [find_matches](https://github.com/dsnowb/data-structures-and-algorithms/tree/find_matches/challenges/find_matches)
+- [tree_intersection](https://github.com/dsnowb/data-structures-and-algorithms/tree/tree_intersection/challenges/tree_intersection)
