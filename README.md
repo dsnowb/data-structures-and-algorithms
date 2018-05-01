@@ -7,6 +7,7 @@
 - [Queue](https://github.com/dsnowb/data-structures-and-algorithms/tree/stack-queue/data_structures/queue)
 - [BST](https://github.com/dsnowb/data-structures-and-algorithms/tree/bst/data_structures/binary_search_tree)
 - [K-Tree](https://github.com/dsnowb/data-structures-and-algorithms/tree/k-tree/data_structures/k_tree)
+- [Hash Table](https://github.com/dsnowb/data-structures-and-algorithms/tree/class-30-hash-tables/data_structures/hash_table)
 
 ### Algorithms
 - [shift-array](https://github.com/dsnowb/data-structures-and-algorithms/tree/shift-array/challenges/shift-array)
@@ -25,4 +26,5 @@
 - [find-maximum-value-binary-tree](https://github.com/dsnowb/data-structures-and-algorithms/tree/find-maximum-value-binary-tree/challenges/find-maximum-value-binary-tree)
 - [print_level_order](https://github.com/dsnowb/data-structures-and-algorithms/tree/print_level_order/challenges/print_level_order)
 - [find_matches](https://github.com/dsnowb/data-structures-and-algorithms/tree/find_matches/challenges/find_matches)
+- [repeated_word](https://github.com/dsnowb/data-structures-and-algorithms/tree/repeated_word/challenges/repeated_word)
 - [tree_intersection](https://github.com/dsnowb/data-structures-and-algorithms/tree/tree_intersection/challenges/tree_intersection)
