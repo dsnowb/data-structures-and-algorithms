@@ -8,9 +8,9 @@ def left_join(htable_1, htable_2):
 
     res = {}
     for key in htable_1:
-        res[key] = [htable_1.get(key)]
+        res[key] = [htable_1.get(key), 'NULL']
     for key in htable_2:
         if key in res:
-            res[key].append(htable_2.get(key))
+            res[key][1] = htable_2.get(key)
 
     return res

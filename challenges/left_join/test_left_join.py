@@ -31,6 +31,8 @@ def test_empty_right(random_hash_table):
     res = lj(random_hash_table, HT())
     for key in random_hash_table:
         assert random_hash_table.get(key) == res[key][0]
+    for key in res:
+        assert res[key] == [random_hash_table.get(key), 'NULL']
 
 
 def test_left_join_valid():
@@ -41,5 +43,5 @@ def test_left_join_valid():
     htable_2.set('a', 3)
     htable_2.set('c', 4)
 
-    assert lj(htable_1, htable_2) == {'a': [1, 3], 'b': [2]}
-    assert lj(htable_2, htable_1) == {'a': [3, 1], 'c': [4]}
+    assert lj(htable_1, htable_2) == {'a': [1, 3], 'b': [2, 'NULL']}
+    assert lj(htable_2, htable_1) == {'a': [3, 1], 'c': [4, 'NULL']}
