@@ -12,6 +12,16 @@ class HashTable:
         self.max_size = max_size
         self.buckets = [LinkedList() for _ in range(max_size)]
 
+    def __iter__(self):
+        keylist = []
+        for bucket in self.buckets:
+            cur = bucket.head
+            while cur:
+                for key in cur.val.keys():
+                    keylist.append(key)
+                cur = cur._next
+        return iter(keylist)
+
     def _hash_key(self, val):
         """Return hash of val."""
         if type(val) is not str:
