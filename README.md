@@ -29,3 +29,4 @@
 - [repeated_word](https://github.com/dsnowb/data-structures-and-algorithms/tree/repeated_word/challenges/repeated_word)
 - [tree_intersection](https://github.com/dsnowb/data-structures-and-algorithms/tree/tree_intersection/challenges/tree_intersection)
 - [left_join](https://github.com/dsnowb/data-structures-and-algorithms/tree/left_join/challenges/left_join)
+- [mergesort](https://github.com/dsnowb/data-structures-and-algorithms/tree/mergesort/challenges/mergesort)
