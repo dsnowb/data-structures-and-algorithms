@@ -33,3 +33,4 @@
 ### Sorting Algorithms
 - [mergesort](https://github.com/dsnowb/data-structures-and-algorithms/tree/class-36-sorts/sorting_algos/mergesort)
 - [selection](https://github.com/dsnowb/data-structures-and-algorithms/tree/class-36-sorts/sorting_algos/selection)
+- [quicksort](https://github.com/dsnowb/data-structures-and-algorithms/tree/quicksort/sorting_algos/quicksort)
