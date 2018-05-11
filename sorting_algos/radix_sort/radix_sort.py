@@ -5,7 +5,7 @@ def radix_sort(lst):
 
     buckets = [[i for i in range(10)] for _ in range(10)]
     place = 1
-    while len(buckets[0]) != len(lst):
+    while len(buckets[0]) != len(lst) or place == 1:
         buckets = [[] for _ in range(10)]
         for x in lst:
             buckets[x // place % 10].append(x)
